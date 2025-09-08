@@ -98,7 +98,7 @@ export default function ServicesPage() {
               <h1 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">
                 Creativity that
                 <br />
-                <span className="font-kepler quantum text-foreground">Converts Marketing</span>
+                <span className="quantum-italic text-foreground">Converts Marketing</span>
               </h1>
             </div>
             
@@ -164,7 +164,7 @@ export default function ServicesPage() {
             <div className="mt-5">
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-headline text-foreground mb-4">
                 Unlock Your Brand’s Full Potential With 
-                <span className="font-kepler quantum">{" "}Quantum Visuals</span>
+                <span className="quantum-italic">{" "}Quantum Visuals</span>
               </h2>
               <p className="mt-3 mb-8 text-lg text-muted-foreground max-w-3xl mx-auto">
                   Ready to elevate your brand?

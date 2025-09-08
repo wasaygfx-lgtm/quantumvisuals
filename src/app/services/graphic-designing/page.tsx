@@ -52,7 +52,7 @@ export default function GraphicDesigningPage() {
             <div className="text-center mb-16 max-w-3xl mx-auto">
               <Palette className="w-16 h-16 text-primary mx-auto mb-4" />
               <h1 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">
-                Graphic <span className="font-kepler quantum">Designing</span>
+                Professional<br/><span className="quantum-italic">Graphic Designing</span>
               </h1>
               <p className="mt-4 text-lg text-muted-foreground">
                 Creating stunning visuals that communicate your brand's message effectively and leave a lasting impression.
@@ -104,7 +104,7 @@ export default function GraphicDesigningPage() {
             <div className="mt-5">
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-headline text-foreground mb-4">
                 Unlock Your Brand’s Full Potential With 
-                <span className="font-kepler quantum">{" "}Quantum Visuals</span>
+                <span className="quantum-italic">{" "}Quantum Visuals</span>
               </h2>
               <p className="mt-3 mb-8 text-lg text-muted-foreground max-w-3xl mx-auto">
                   Ready to elevate your brand?

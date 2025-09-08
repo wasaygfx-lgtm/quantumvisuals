@@ -53,7 +53,7 @@ export default function AIAgentsPage() {
             <div className="text-center mb-16 max-w-3xl mx-auto">
               <Bot className="w-16 h-16 text-primary mx-auto mb-4" />
               <h1 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">
-                AI <span className="font-kepler quantum">Agents</span>
+                Intelligent<br/><span className="quantum-italic">AI Agents</span>
               </h1>
               <p className="mt-4 text-lg text-muted-foreground">
                 At Quantum Visuals, we develop intelligent AI agents that automate tasks, enhance customer experiences, and drive business efficiency. Our custom AI solutions are designed to integrate seamlessly with your existing systems and deliver measurable results.
@@ -122,7 +122,7 @@ export default function AIAgentsPage() {
               <div className="mt-5">
                 <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-headline text-foreground mb-4">
                   Unlock Your Brand's Full Potential With
-                  <span className="font-kepler quantum">{" "}Quantum Visuals</span>
+                  <span className="quantum-italic">{" "}Quantum Visuals</span>
                 </h2>
                 <p className="mt-3 mb-8 text-lg text-muted-foreground max-w-3xl mx-auto">
                   Ready to elevate your brand?

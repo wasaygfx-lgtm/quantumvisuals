@@ -32,8 +32,8 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <div className="animate-in fade-in slide-in-from-bottom-12 duration-1000">
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold font-headline tracking-tight text-white">
-              Elevate Your Brand with{" "}
-              <span className="font-kepler quantum">Quantum Visuals</span>
+              Elevate Your Brand With<br/>
+              <span className="quantum-italic">Quantum Visuals Services</span>
             </h1>
             <p className="mt-6 text-lg md:text-xl text-white/80 max-w-2xl mx-auto">
               We create stunning visuals and seamless web experiences that

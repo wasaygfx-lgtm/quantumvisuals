@@ -42,7 +42,7 @@ export default function Header() {
       <header className="absolute top-0 z-50 w-full bg-transparent">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
-            <Link href="/" className="flex items-center gap-2 text-2xl font-bold font-headline italic text-primary">
+            <Link href="/" className="flex items-center gap-2 text-2xl font-bold font-headline text-primary">
               <img
                 src="/images/QV Logo-02.png"
                 alt="Quantum Visuals Logo"
@@ -87,7 +87,7 @@ export default function Header() {
           onClick={(e) => e.stopPropagation()}
         >
           <div className="flex items-center justify-between h-20">
-            <Link href="/" onClick={() => setIsOpen(false)} className="flex items-center gap-2 text-2xl font-bold font-headline italic text-primary">
+            <Link href="/" onClick={() => setIsOpen(false)} className="flex items-center gap-2 text-2xl font-bold font-headline text-primary">
               <img
                 src="/images/QV Logo-02.png"
                 alt="Quantum Visuals Logo"

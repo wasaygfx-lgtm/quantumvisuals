@@ -29,7 +29,7 @@ export default function WhyUsSection() {
     <section id="why-us" className="py-20 sm:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold font-headline text-foreground">Why Choose Quantum Visuals?{" "}<span className="font-kepler quantum">Quantum Visuals?</span></h2>
+          <h2 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">Why Choose{" "}<span className="quantum-italic">Quantum Visuals?</span></h2>
           <p className="mt-4 text-lg text-muted-foreground">We are more than just a software house. We are your dedicated partners in innovation.</p>
         </div>
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">

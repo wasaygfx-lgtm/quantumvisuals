@@ -51,7 +51,7 @@ export default function DigitalMarketingPage() {
             <div className="text-center mb-16 max-w-3xl mx-auto">
               <Megaphone className="w-16 h-16 text-primary mx-auto mb-4" />
               <h1 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">
-                Digital <span className="font-kepler quantum">Marketing</span>
+                Strategic<br/><span className="quantum-italic">Digital Marketing</span>
               </h1>
               <p className="mt-4 text-lg text-muted-foreground">
                 At Quantum Visuals, we provide complete digital marketing solutions designed to accelerate your business growth. Our expertise in Meta Ads (Facebook & Instagram) and Google Ads helps you connect with the right audience, boost your brand presence, and achieve measurable results.
@@ -116,7 +116,7 @@ export default function DigitalMarketingPage() {
               <div className="mt-5">
                 <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-headline text-foreground mb-4">
                   Unlock Your Brand’s Full Potential With
-                  <span className="font-kepler quantum">{" "}Quantum Visuals</span>
+                  <span className="quantum-italic">{" "}Quantum Visuals</span>
                 </h2>
                 <p className="mt-3 mb-8 text-lg text-muted-foreground max-w-3xl mx-auto">
                   Ready to elevate your brand?

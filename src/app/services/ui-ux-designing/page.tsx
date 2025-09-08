@@ -52,7 +52,7 @@ export default function UiUxDesigningPage() {
             <div className="text-center mb-16 max-w-3xl mx-auto">
               <PenTool className="w-16 h-16 text-primary mx-auto mb-4" />
               <h1 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">
-                UI/UX <span className="font-kepler quantum">Designing</span>
+                Creative<br/><span className="quantum-italic">UI/UX Designing</span>
               </h1>
               <p className="mt-4 text-lg text-muted-foreground">
                 Crafting intuitive and beautiful user interfaces that provide a seamless user experience from start to finish.
@@ -104,7 +104,7 @@ export default function UiUxDesigningPage() {
             <div className="mt-5">
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-headline text-foreground mb-4">
                 Unlock Your Brand’s Full Potential With 
-                <span className="font-kepler quantum">{" "}Quantum Visuals</span>
+                <span className="quantum-italic">{" "}Quantum Visuals</span>
               </h2>
               <p className="mt-3 mb-8 text-lg text-muted-foreground max-w-3xl mx-auto">
                   Ready to elevate your brand?

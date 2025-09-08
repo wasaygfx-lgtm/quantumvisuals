@@ -67,7 +67,7 @@ export default function TestimonialsSection() {
     <section id="testimonials" className="py-20 sm:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">What Our{" "}<span className="font-kepler quantum">Clients Say</span></h2>
+          <h2 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">What Our {" "}<span className="quantum-italic">Clients Say</span></h2>
           <p className="mt-4 text-lg text-muted-foreground">We are proud to have worked with amazing clients.</p>
         </div>
       </div>

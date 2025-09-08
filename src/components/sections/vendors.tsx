@@ -56,7 +56,7 @@ export default function VendorsSection() {
       <div className="absolute top-0 left-0 w-24 h-full bg-gradient-to-r from-background to-transparent z-20" />
       <div className="absolute top-0 right-0 w-24 h-full bg-gradient-to-l from-background to-transparent z-20" />
       <div className="text-center mb-8">
-          <h2 className="text-3xl sm:text-4xl font-bold font-headline text-foreground">Working on these Technologies</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">Working on these <span className='quantum-italic'>Technologies</span></h2>
       </div>
       <div className="flex animate-scroll [animation-duration:_40s]">
         {allVendors.map((vendor, index) => (

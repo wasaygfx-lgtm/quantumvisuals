@@ -45,7 +45,7 @@ export default function ProjectsSection() {
     <section id="projects" className="py-20 sm:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">Our{" "}<span className="font-kepler quantum">Showcase</span></h2>
+          <h2 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">Our{" "}<span className="quantum-italic">Showcase</span></h2>
           <p className="mt-4 text-lg text-muted-foreground">
           We offer a wide range of services to bring your vision to life.
           </p>

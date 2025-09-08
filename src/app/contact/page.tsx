@@ -31,7 +31,7 @@ export default function ContactPage() {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center">
                 <h1 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">
-                  Contact <span className="font-kepler quantum">Us</span>
+                  Get In Touch<br/><span className="quantum-italic">Contact Us</span>
                 </h1>
                 <p className="mt-4 text-lg text-muted-foreground">
                   We'd love to hear from you.

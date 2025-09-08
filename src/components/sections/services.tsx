@@ -28,7 +28,7 @@ export default function ServicesSection() {
     <section id="services" className="py-20 sm:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">Our{" "}<span className="font-kepler quantum">Projects</span></h2>
+          <h2 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">Our Latest<br/><span className="quantum-italic">Creative Projects</span></h2>
           <p className="mt-4 text-lg text-muted-foreground">See how our unique blend of flexibility, expertise, and innovation transforms each project into a standout success.</p>
         </div>
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">

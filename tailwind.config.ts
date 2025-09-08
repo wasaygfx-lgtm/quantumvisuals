@@ -11,7 +11,7 @@ export default {
     extend: {
       fontFamily: {
         body: ['"Lato"', 'sans-serif'],
-        headline: ['"Kepler Bold Italic Subhead"', '"Lato"', 'sans-serif'],
+        headline: ['"Lato"', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
