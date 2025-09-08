@@ -4,7 +4,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Header from '@/components/layout/header';
 import Starfield from '@/components/ui/starfield';
-import { ArrowRight, Code, Megaphone, Palette, PenTool } from "lucide-react";
+import { ArrowRight, Bot, Code, Megaphone, Palette, PenTool } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Instagram, Facebook, Linkedin } from 'lucide-react';
@@ -65,6 +65,14 @@ const services = [
     imageUrl: "/services/4.jpg",
     imageAlt: "Digital Marketing",
     href: "/services/digital-marketing",
+  },
+  {
+    icon: <Bot className="w-8 h-8 text-white" />,
+    title: "AI Agents",
+    description: "Intelligent automation solutions that work around the clock.",
+    imageUrl: "/services/ai.jpg",
+    imageAlt: "AI Agents",
+    href: "/services/ai-agents",
   },
 ];
 

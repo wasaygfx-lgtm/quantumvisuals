@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 // import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Forward } from "lucide-react";
+import { ArrowRight, Forward } from "lucide-react";
 
 const projects = [
   {
@@ -32,6 +32,12 @@ const projects = [
     href: "/services/digital-marketing",
     links: [],
   },
+  {
+    title: "AI Agents",
+    imageUrl: "./services/ai.jpg",
+    href: "/services/ai-agents",
+    links: [],
+  },
 ];
 
 export default function ProjectsSection() {
@@ -44,7 +50,7 @@ export default function ProjectsSection() {
           We offer a wide range of services to bring your vision to life.
           </p>
         </div>
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <Link key={index} href={project.href}>
               <Card className="relative overflow-hidden group bg-transparent border-border/50 rounded-[10px]">
@@ -56,7 +62,7 @@ export default function ProjectsSection() {
                   />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                <CardContent className="absolute bottom-0 left-0 p-6 w-full">
+                <CardContent className="absolute bottom-0 left-0 p-6 ">
                   <div>
                     <h3 className="text-xl font-bold text-white">{project.title}</h3>
                   </div>
@@ -78,6 +84,7 @@ export default function ProjectsSection() {
               </Card>
             </Link>
           ))}
+
         </div>
       </div>
     </section>

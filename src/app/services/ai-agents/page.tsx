@@ -1,12 +1,12 @@
-
 'use client';
 
 import Header from '@/components/layout/header';
 import Starfield from '@/components/ui/starfield';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { Megaphone } from 'lucide-react';
+import { Bot } from 'lucide-react';
 import { Instagram, Facebook, Linkedin } from 'lucide-react';
+
 const DiscordIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -19,6 +19,7 @@ const DiscordIcon = (props: React.SVGProps<SVGSVGElement>) => (
     <path d="M20.317 4.3698C18.882 3.6538 17.349 3.1258 15.727 2.8228C15.428 3.2458 15.154 3.7388 14.945 4.2838C13.259 3.9938 11.536 3.9938 9.851 4.2838C9.642 3.7388 9.368 3.2458 9.069 2.8228C7.447 3.1258 5.914 3.6538 4.479 4.3698C1.657 8.2488 0.813 12.2888 1.225 16.2418C2.943 17.6338 4.78 18.6708 6.634 19.3498C7.086 18.7818 7.495 18.1698 7.848 17.5148C7.213 17.1598 6.602 16.7628 6.033 16.3328C6.142 16.2418 6.25 16.1498 6.357 16.0528C9.444 17.6338 12.986 17.6338 16.051 16.0528C16.158 16.1498 16.266 16.2418 16.375 16.3328C15.806 16.7628 15.195 17.1598 14.56 17.5148C14.913 18.1698 15.322 18.7818 15.774 19.3498C17.628 18.6708 19.466 17.6338 21.184 16.2418C21.733 11.3728 20.317 7.4588 20.317 4.3698ZM8.02 13.9878C7.031 13.9878 6.223 13.1598 6.223 12.1488C6.223 11.1378 7.017 10.3098 8.02 10.3098C9.023 10.3098 9.831 11.1378 9.817 12.1488C9.817 13.1598 9.023 13.9878 8.02 13.9878ZM14.399 13.9878C13.41 13.9878 12.602 13.1598 12.602 12.1488C12.602 11.1378 13.396 10.3098 14.399 10.3098C15.402 10.3098 16.21 11.1378 16.196 12.1488C16.196 13.1598 15.402 13.9878 14.399 13.9878Z" />
   </svg>
 );
+
 const XIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +32,8 @@ const XIcon = (props: React.SVGProps<SVGSVGElement>) => (
     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
   </svg>
 );
-export default function DigitalMarketingPage() {
+
+export default function AIAgentsPage() {
   return (
     <div className="relative flex flex-col min-h-screen">
       <Starfield />
@@ -49,57 +51,61 @@ export default function DigitalMarketingPage() {
         <main className="relative z-10 py-20 sm:py-32 flex-grow">
           <section className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16 max-w-3xl mx-auto">
-              <Megaphone className="w-16 h-16 text-primary mx-auto mb-4" />
+              <Bot className="w-16 h-16 text-primary mx-auto mb-4" />
               <h1 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">
-                Digital <span className="font-kepler quantum">Marketing</span>
+                AI <span className="font-kepler quantum">Agents</span>
               </h1>
               <p className="mt-4 text-lg text-muted-foreground">
-                At Quantum Visuals, we provide complete digital marketing solutions designed to accelerate your business growth. Our expertise in Meta Ads (Facebook & Instagram) and Google Ads helps you connect with the right audience, boost your brand presence, and achieve measurable results.
-                We focus on:
+                At Quantum Visuals, we develop intelligent AI agents that automate tasks, enhance customer experiences, and drive business efficiency. Our custom AI solutions are designed to integrate seamlessly with your existing systems and deliver measurable results.
+                We specialize in:
               </p>
             </div>
 
             <div className="max-w-4xl mx-auto bg-black/30 backdrop-blur-sm border border-primary/30 rounded-2xl p-8 space-y-8 text-left">
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  In today's digital age, a strong online presence is crucial for success. Our digital marketing services are designed to help you connect with your audience, build brand awareness, and drive measurable results. We use a data-driven approach to create and execute strategies that align with your business objectives.
+                  Artificial Intelligence is transforming how businesses operate. Our AI agent development services help you harness the power of machine learning, natural language processing, and automation to create intelligent solutions that work around the clock to serve your customers and optimize your operations.
                 </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  🚀 Business Growth – generating quality leads, sales, and revenue.                    </p>
-              </div>
-              <div>
-                <p className="text-muted-foreground leading-relaxed">
-                  👥                  Audience Growth – expanding your reach through smart targeting.
+                  🤖 Custom AI Chatbots – intelligent conversational agents for customer support and engagement.
                 </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  🌟 Brand Awareness – making your brand stand out across social and search platforms.
+                  🔄 Process Automation – AI-powered workflows that streamline repetitive tasks and reduce manual work.
                 </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  💬 Engagement – creating campaigns that spark interaction and build trust.</p>
-              </div>
-              <div>
-                <p className="text-muted-foreground leading-relaxed">
-                  🎯 Retargeting – converting visitors into loyal customers with precision.
+                  📊 Data Analysis Agents – intelligent systems that analyze patterns and provide actionable insights.
                 </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  📈 Marketing Strategies – data-driven campaigns, funnel optimization, and continuous performance tracking.</p>
+                  🎯 Personalization Engines – AI agents that deliver tailored experiences based on user behavior.
+                </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  With a perfect blend of creative strategies and data analytics, Quantum Visuals ensures your business not only grows but thrives in today’s competitive digital world.</p>
+                  🛡️ Intelligent Monitoring – AI systems that detect anomalies and prevent issues before they occur.
+                </p>
+              </div>
+              <div>
+                <p className="text-muted-foreground leading-relaxed">
+                  🚀 Integration Solutions – seamless AI agent deployment across web, mobile, and enterprise platforms.
+                </p>
+              </div>
+              <div>
+                <p className="text-muted-foreground leading-relaxed">
+                  With cutting-edge AI technology and deep industry expertise, Quantum Visuals creates intelligent agents that not only automate your processes but also learn and adapt to deliver increasingly better results over time.
+                </p>
               </div>
               <div className="text-center pt-8">
                 <Link href="/contact">
                   <Button className="shiny-button px-8 py-6 text-lg">
-                    Start Your Campaign
+                    Build Your AI Agent
                   </Button>
                 </Link>
               </div>
@@ -108,14 +114,14 @@ export default function DigitalMarketingPage() {
         </main>
       </div>
       <section>
-        <footer className="relative flex items-end justify-center pb-8 pt-16" >
+        <footer className="relative flex items-end justify-center pb-8 pt-16">
           <div className="absolute top-0 left-0 w-full h-full mt-50" />
 
           <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-end h-full">
             <div className="flex-grow flex items-center justify-center text-center animate-in fade-in slide-in-from-bottom-12 duration-1000">
               <div className="mt-5">
                 <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-headline text-foreground mb-4">
-                  Unlock Your Brand’s Full Potential With
+                  Unlock Your Brand's Full Potential With
                   <span className="font-kepler quantum">{" "}Quantum Visuals</span>
                 </h2>
                 <p className="mt-3 mb-8 text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -160,32 +166,9 @@ export default function DigitalMarketingPage() {
                 </div>
               </div>
             </div>
-            <div className="w-full flex justify-end text-sm text-white/80 mb-1">
-              <div className="flex gap-4">
-                <Link href="/terms" className="hover:text-primary transition-colors">Terms & Conditions</Link>
-                <Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
-                <Link href="/refund" className="hover:text-primary transition-colors">Refund Policy</Link>
-              </div>
-            </div>
-
-            <div className="w-full flex justify-between items-center text-sm text-white/80">
-              <div className="flex flex-col gap-2">
-                <Link href="/">
-                  <img
-                    src="/images/QV Logo-01.png"
-                    alt="Quantum Visuals Logo"
-                    className="w-26 h-8"
-                  />
-                </Link>
-              </div>
-              <div className="text-right">
-                <p>&copy; {new Date().getFullYear()} Quantum Visuals. All rights reserved.</p>
-              </div>
-            </div>
           </div>
         </footer>
       </section>
     </div>
-
   );
 }
