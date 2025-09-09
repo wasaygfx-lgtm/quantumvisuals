@@ -45,8 +45,8 @@ export default function ServicesSection() {
                   </div>
                 </CardHeader>
                 <CardContent className="p-6">
-                  <CardTitle className="font-headline text-xl mb-2">{service.title}</CardTitle>
-                  <p className="text-muted-foreground">{service.description}</p>
+                  <CardTitle className="font-headline text-xl mb-2 purple-glow-hover">{service.title}</CardTitle>
+                  <p className="text-muted-foreground purple-glow-hover">{service.description}</p>
                 </CardContent>
               </Card>
             </div>

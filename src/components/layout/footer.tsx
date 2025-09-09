@@ -59,7 +59,8 @@ export default function Footer() {
                 </div>
               </div>
 
-              <div className="flex justify-center items-center gap-4">
+
+              <div className="flex justify-center items-center gap-4 hidden md:flex">
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
                   <Link href="#" aria-label="Instagram">
                     <Instagram className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
@@ -88,24 +89,57 @@ export default function Footer() {
               </div>
             </div>
         </div>
-        <div className="w-full flex flex-col sm:flex-row justify-center sm:justify-end text-sm text-white/80 mb-4 sm:mb-1 gap-2 sm:gap-4 text-center">
-            <Link href="/terms" className="hover:text-primary transition-colors">Terms & Conditions</Link>
-            <Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
-            <Link href="/refund" className="hover:text-primary transition-colors">Refund Policy</Link>
-        </div>
-
-        <div className="w-full flex flex-col sm:flex-row justify-between items-center text-sm text-white/80 gap-4">
-          <div className="flex flex-col items-center sm:items-start gap-2">
-            <Link href="/">
+        <div className="w-full flex flex-col gap-6 md:flex-row md:justify-between md:items-center">
+          <div className="flex flex-col gap-4">
+            <Link href="/" className="self-start">
               <img
                 src="/images/QV Logo-01.png"
                 alt="Quantum Visuals Logo"
-                className="w-26 h-8"
+                className="w-35 h-10"
               />
             </Link>
+            
+            <div className="md:hidden">
+              <div className="flex gap-4">
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
+                  <Link href="#" aria-label="Facebook">
+                    <Facebook className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
+                  <Link href="#" aria-label="X">
+                    <XIcon className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
+                  <Link href="#" aria-label="Instagram">
+                    <Instagram className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
+                  <Link href="#" aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
+                  <Link href="#" aria-label="Discord">
+                    <DiscordIcon className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+              </div>
+              <hr className="border-white/20 mt-4" />
+            </div>
           </div>
-          <div className="text-center sm:text-right">
-            <p>&copy; {new Date().getFullYear()} Quantum Visuals. All rights reserved.</p>
+          <div className="flex flex-col gap-6 md:gap-4">
+            <div className="flex flex-col gap-3 text-sm text-white/60 md:flex-row md:gap-6">
+              <Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
+              <Link href="/terms" className="hover:text-primary transition-colors">Terms & Conditions</Link>
+              <Link href="/refund" className="hover:text-primary transition-colors">Refund Policy</Link>
+            </div>
+            
+            <p className="text-sm text-white/60 md:text-right">
+              &copy; Copyright {new Date().getFullYear()-1} - {new Date().getFullYear() } Quantum Visuals. All Rights Reserved.
+            </p>
           </div>
         </div>
       </div>
