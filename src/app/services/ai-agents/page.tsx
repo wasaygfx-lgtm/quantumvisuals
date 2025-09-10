@@ -63,45 +63,62 @@ export default function AIAgentsPage() {
 
             <div className="max-w-4xl mx-auto bg-black/30 backdrop-blur-sm border border-primary/30 rounded-2xl p-8 space-y-8 text-left">
               <div>
+                <h3 className="text-xl font-bold text-white mb-4">What is AI Agents?</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Artificial Intelligence is transforming how businesses operate. Our AI agent development services help you harness the power of machine learning, natural language processing, and automation to create intelligent solutions that work around the clock to serve your customers and optimize your operations.
+                  AI agents are autonomous or semi-autonomous software systems that use artificial intelligence to perceive their environment, make decisions, and take actions to achieve specific goals. They can interact with users, systems, or other agents, and are often designed to solve problems autonomously or assist in decision-making.
                 </p>
               </div>
+              
               <div>
-                <p className="text-muted-foreground leading-relaxed">
-                  🤖 Custom AI Chatbots – intelligent conversational agents for customer support and engagement.
+                <h3 className="text-xl font-bold text-white mb-4">Why AI Agents Are Essential for Modern Businesses?</h3>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  AI agents are transforming modern business operations by automating key functions across customer support, inventory management, Digital marketing, and E-commerce businesses.
                 </p>
+                
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="text-lg font-semibold text-white mb-2">In customer support,</h4>
+                    <p className="text-muted-foreground leading-relaxed">
+                      Businesses across industries are using AI agents (chatbots, voice assistants) to provide 24/7 customer service, reduce wait times, and lower support costs. High demand in e-commerce, telecom, banking, and SaaS.
+                    </p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-lg font-semibold text-white mb-2">In Inventory management,</h4>
+                    <p className="text-muted-foreground leading-relaxed">
+                      AI agents monitor stock levels in real time, forecast future demand using predictive analytics, and automate reordering when inventory is low. They help avoid stockouts and overstock situations, reduce storage costs, and improve overall supply chain efficiency.
+                    </p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-lg font-semibold text-white mb-2">When it comes to Marketing,</h4>
+                    <p className="text-muted-foreground leading-relaxed">
+                      AI agents handle lead generation, qualification, email automation, personalized content, and campaign optimization. Highly used in digital marketing agencies, SaaS, and B2B sales.
+                    </p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-lg font-semibold text-white mb-2">In Real Estate,</h4>
+                    <p className="text-muted-foreground leading-relaxed">
+                      AI agents handle lead generation, qualification, email automation, personalized content, and campaign optimization. Highly used in digital marketing agencies, SaaS, and B2B sales.
+                    </p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-lg font-semibold text-white mb-2">In Healthcare,</h4>
+                    <p className="text-muted-foreground leading-relaxed">
+                      AI agents handle lead generation, qualification, email automation, personalized content, and campaign optimization. Highly used in digital marketing agencies, SaaS, and B2B sales.
+                    </p>
+                  </div>
+                </div>
               </div>
+              
               <div>
-                <p className="text-muted-foreground leading-relaxed">
-                  🔄 Process Automation – AI-powered workflows that streamline repetitive tasks and reduce manual work.
+                <p className="text-lg font-semibold text-white leading-relaxed">
+                  Overall, AI agents help businesses work faster, smarter, and more efficiently — delivering better results while lowering costs.
                 </p>
               </div>
-              <div>
-                <p className="text-muted-foreground leading-relaxed">
-                  📊 Data Analysis Agents – intelligent systems that analyze patterns and provide actionable insights.
-                </p>
-              </div>
-              <div>
-                <p className="text-muted-foreground leading-relaxed">
-                  🎯 Personalization Engines – AI agents that deliver tailored experiences based on user behavior.
-                </p>
-              </div>
-              <div>
-                <p className="text-muted-foreground leading-relaxed">
-                  🛡️ Intelligent Monitoring – AI systems that detect anomalies and prevent issues before they occur.
-                </p>
-              </div>
-              <div>
-                <p className="text-muted-foreground leading-relaxed">
-                  🚀 Integration Solutions – seamless AI agent deployment across web, mobile, and enterprise platforms.
-                </p>
-              </div>
-              <div>
-                <p className="text-muted-foreground leading-relaxed">
-                  With cutting-edge AI technology and deep industry expertise, Quantum Visuals creates intelligent agents that not only automate your processes but also learn and adapt to deliver increasingly better results over time.
-                </p>
-              </div>
+              
               <div className="text-center pt-8">
                 <Link href="/contact">
                   <Button className="shiny-button px-8 py-6 text-lg">

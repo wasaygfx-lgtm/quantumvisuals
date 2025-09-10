@@ -67,30 +67,33 @@ export default function DigitalMarketingPage() {
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                   Business Growth – generating quality leads, sales, and revenue.                    </p>
-              </div>
-              <div>
-                <p className="text-muted-foreground leading-relaxed">
-                                    Audience Growth – expanding your reach through smart targeting.
+                   <span className="font-bold text-white">Business Growth</span> – generating quality leads, sales, and revenue.
                 </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                   Brand Awareness – making your brand stand out across social and search platforms.
+                   <span className="font-bold text-white">Audience Growth</span> – expanding your reach through smart targeting.
                 </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                   Engagement – creating campaigns that spark interaction and build trust.</p>
-              </div>
-              <div>
-                <p className="text-muted-foreground leading-relaxed">
-                   Retargeting – converting visitors into loyal customers with precision.
+                   <span className="font-bold text-white">Brand Awareness</span> – making your brand stand out across social and search platforms.
                 </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                   Marketing Strategies – data-driven campaigns, funnel optimization, and continuous performance tracking.</p>
+                   <span className="font-bold text-white">Engagement</span> – creating campaigns that spark interaction and build trust.
+                </p>
+              </div>
+              <div>
+                <p className="text-muted-foreground leading-relaxed">
+                   <span className="font-bold text-white">Retargeting</span> – converting visitors into loyal customers with precision.
+                </p>
+              </div>
+              <div>
+                <p className="text-muted-foreground leading-relaxed">
+                   <span className="font-bold text-white">Marketing Strategies</span> – data-driven campaigns, funnel optimization, and continuous performance tracking.
+                </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
