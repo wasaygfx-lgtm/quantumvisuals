@@ -67,30 +67,30 @@ export default function DigitalMarketingPage() {
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  🚀 Business Growth – generating quality leads, sales, and revenue.                    </p>
+                   Business Growth – generating quality leads, sales, and revenue.                    </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  👥                  Audience Growth – expanding your reach through smart targeting.
+                                    Audience Growth – expanding your reach through smart targeting.
                 </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  🌟 Brand Awareness – making your brand stand out across social and search platforms.
+                   Brand Awareness – making your brand stand out across social and search platforms.
                 </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  💬 Engagement – creating campaigns that spark interaction and build trust.</p>
+                   Engagement – creating campaigns that spark interaction and build trust.</p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  🎯 Retargeting – converting visitors into loyal customers with precision.
+                   Retargeting – converting visitors into loyal customers with precision.
                 </p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
-                  📈 Marketing Strategies – data-driven campaigns, funnel optimization, and continuous performance tracking.</p>
+                   Marketing Strategies – data-driven campaigns, funnel optimization, and continuous performance tracking.</p>
               </div>
               <div>
                 <p className="text-muted-foreground leading-relaxed">
@@ -108,82 +108,114 @@ export default function DigitalMarketingPage() {
         </main>
       </div>
       <section>
-        <footer className="relative flex items-end justify-center pb-8 pt-16" >
-          <div className="absolute top-0 left-0 w-full h-full mt-50" />
-
-          <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-end h-full">
-            <div className="flex-grow flex items-center justify-center text-center animate-in fade-in slide-in-from-bottom-12 duration-1000">
-              <div className="mt-5">
-                <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-headline text-foreground mb-4">
-                  Unlock Your Brand’s Full Potential With
-                  <span className="quantum-italic">{" "}Quantum Visuals</span>
-                </h2>
-                <p className="mt-3 mb-8 text-lg text-muted-foreground max-w-3xl mx-auto">
+        <footer className="relative flex items-end justify-center min-h-screen pb-8 pt-16" >
+      <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b" />
+      
+      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-end h-full">
+        <div className="flex-grow flex items-center justify-center text-center animate-in fade-in slide-in-from-bottom-12 duration-1000">
+            <div className="mt-5">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-headline text-foreground mb-4">
+                Unlock Your Brand’s Full Potential With 
+                <span className="quantum-italic">{" "}Quantum Visuals</span>
+              </h2>
+              <p className="mt-3 mb-8 text-lg text-muted-foreground max-w-3xl mx-auto">
                   Ready to elevate your brand?
-                </p>
+              </p>
+              <div className="mt-8 mb-12">
                 <div className="mt-8 mb-12">
-                  <div className="mt-8 mb-12">
-                    <Link href="/contact">
-                      <Button className="shiny-button px-8 py-6 text-lg">
-                        Hire Us
-                      </Button>
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="flex justify-center items-center gap-4">
-                  <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                    <Link href="#" aria-label="Instagram">
-                      <Instagram className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
-                    </Link>
-                  </Button>
-                  <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                    <Link href="#" aria-label="Facebook">
-                      <Facebook className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
-                    </Link>
-                  </Button>
-                  <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                    <Link href="#" aria-label="LinkedIn">
-                      <Linkedin className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
-                    </Link>
-                  </Button>
-                  <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                    <Link href="#" aria-label="X">
-                      <XIcon className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
-                    </Link>
-                  </Button>
-                  <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                    <Link href="#" aria-label="Discord">
-                      <DiscordIcon className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
-                    </Link>
-                  </Button>
+                  <Link href="/contact">
+                    <Button className="shiny-button px-8 py-6 text-lg">
+                      Hire Us
+                    </Button>
+                  </Link>
                 </div>
               </div>
+
+
+              <div className="flex justify-center items-center gap-4 hidden md:flex">
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
+                  <Link href="#" aria-label="Instagram">
+                    <Instagram className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
+                  <Link href="#" aria-label="Facebook">
+                    <Facebook className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
+                  <Link href="#" aria-label="LinkedIn">
+                    <Linkedin className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
+                  <Link href="#" aria-label="X">
+                    <XIcon className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
+                  <Link href="#" aria-label="Discord">
+                    <DiscordIcon className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+              </div>
             </div>
-            <div className="w-full flex justify-end text-sm text-white/80 mb-1">
+        </div>
+        <div className="w-full flex flex-col gap-6 md:flex-row md:justify-between md:items-center">
+          <div className="flex flex-col gap-4">
+            <Link href="/" className="self-start">
+              <img
+                src="/images/QV Logo-01.png"
+                alt="Quantum Visuals Logo"
+                className="w-35 h-10"
+              />
+            </Link>
+            
+            <div className="md:hidden">
               <div className="flex gap-4">
-                <Link href="/terms" className="hover:text-primary transition-colors">Terms & Conditions</Link>
-                <Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
-                <Link href="/refund" className="hover:text-primary transition-colors">Refund Policy</Link>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
+                  <Link href="#" aria-label="Facebook">
+                    <Facebook className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
+                  <Link href="#" aria-label="X">
+                    <XIcon className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
+                  <Link href="#" aria-label="Instagram">
+                    <Instagram className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
+                  <Link href="#" aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
+                  <Link href="#" aria-label="Discord">
+                    <DiscordIcon className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                  </Link>
+                </Button>
               </div>
-            </div>
-
-            <div className="w-full flex justify-between items-center text-sm text-white/80">
-              <div className="flex flex-col gap-2">
-                <Link href="/">
-                  <img
-                    src="/images/QV Logo-01.png"
-                    alt="Quantum Visuals Logo"
-                    className="w-26 h-8"
-                  />
-                </Link>
-              </div>
-              <div className="text-right">
-                <p>&copy; {new Date().getFullYear()} Quantum Visuals. All rights reserved.</p>
-              </div>
+              <hr className="border-white/20 mt-4" />
             </div>
           </div>
-        </footer>
+          <div className="flex flex-col gap-6 md:gap-4">
+            <div className="flex flex-col gap-3 text-sm text-white/60 md:flex-row md:gap-6">
+              <Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
+              <Link href="/terms" className="hover:text-primary transition-colors">Terms & Conditions</Link>
+              <Link href="/refund" className="hover:text-primary transition-colors">Refund Policy</Link>
+            </div>
+            
+            <p className="text-sm text-white/60 md:text-right">
+              &copy; Copyright {new Date().getFullYear()-1} - {new Date().getFullYear() } Quantum Visuals. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
       </section>
     </div>
 
