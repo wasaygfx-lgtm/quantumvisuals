@@ -215,7 +215,7 @@ export default function ServicesPage() {
               <img
                 src="/images/QV Logo-01.png"
                 alt="Quantum Visuals Logo"
-                className="w-35 h-10"
+                className="w-30 h-6 md:w-38 md:h-10"
               />
             </Link>
             
