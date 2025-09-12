@@ -9,7 +9,7 @@ const handleScrollToServices = (
 ) => {
   e.preventDefault();
   document
-    .querySelector("#services")
+    .querySelector("#projects")
     ?.scrollIntoView({ behavior: "smooth" });
 };
 
