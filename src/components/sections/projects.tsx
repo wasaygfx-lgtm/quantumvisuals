@@ -38,6 +38,12 @@ const projects = [
     href: "/services/ai-agents",
     links: [],
   },
+  {
+    title: "ERP & DOS SOLUTIONS",
+    imageUrl: "./services/ERP.jpg",
+    href: "/services/erp-dos-solutions",
+    links: [],
+  },
 ];
 
 export default function ProjectsSection() {

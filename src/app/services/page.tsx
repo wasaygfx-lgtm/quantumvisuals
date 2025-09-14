@@ -4,7 +4,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Header from '@/components/layout/header';
 import Starfield from '@/components/ui/starfield';
-import { ArrowRight, Bot, Code, Megaphone, Palette, PenTool } from "lucide-react";
+import { ArrowRight, Bot, Code, Megaphone, Palette, PenTool, Database } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Instagram, Facebook, Linkedin } from 'lucide-react';
@@ -73,6 +73,14 @@ const services = [
     imageUrl: "/services/ai.jpg",
     imageAlt: "AI Agents",
     href: "/services/ai-agents",
+  },
+  {
+    icon: <Database className="w-8 h-8 text-white" />,
+    title: "ERP & DOS SOLUTIONS",
+    description: "Comprehensive enterprise resource planning and data optimization systems.",
+    imageUrl: "/services/ERP.jpg",
+    imageAlt: "ERP & DOS Solutions",
+    href: "/services/erp-dos-solutions",
   },
 ];
 
