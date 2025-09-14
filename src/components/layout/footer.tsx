@@ -30,7 +30,7 @@ export default function Footer() {
   return (
     <footer className="relative flex items-end justify-center min-h-screen pb-8 pt-16" >
       <video
-        className="absolute inset-0 w-full h-full object-cover z-[-1]"
+        className="absolute inset-0 w-full h-full object-cover z-[-1] opacity-90"
         src="/videos/final.mp4"
         autoPlay
         loop
