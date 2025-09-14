@@ -20,7 +20,7 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center text-center overflow-hidden"
     >
       <video
-        className="absolute inset-0 w-full h-full object-cover z-[-1]"
+        className="absolute inset-0 w-full h-full object-cover z-[-1] opacity-90"
         src="./videos/final.mp4"
         autoPlay
         loop
