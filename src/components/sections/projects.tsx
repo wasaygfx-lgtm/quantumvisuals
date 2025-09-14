@@ -39,9 +39,9 @@ const projects = [
     links: [],
   },
   {
-    title: "ERP & DOS SOLUTIONS",
+    title: "ERP & POS SOLUTIONS",
     imageUrl: "./services/ERP.jpg",
-    href: "/services/erp-dos-solutions",
+    href: "/services/erp-pos-solutions",
     links: [],
   },
 ];

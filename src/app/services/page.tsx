@@ -76,11 +76,11 @@ const services = [
   },
   {
     icon: <Database className="w-8 h-8 text-white" />,
-    title: "ERP & DOS SOLUTIONS",
-    description: "Comprehensive enterprise resource planning and data optimization systems.",
+    title: "ERP & POS SOLUTIONS",
+    description: "Comprehensive enterprise resource planning and point of sale systems.",
     imageUrl: "/services/ERP.jpg",
     imageAlt: "ERP & DOS Solutions",
-    href: "/services/erp-dos-solutions",
+    href: "/services/erp-pos-solutions",
   },
 ];
 

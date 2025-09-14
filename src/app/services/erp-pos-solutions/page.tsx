@@ -53,10 +53,10 @@ export default function ERPDOSPage() {
             <div className="text-center mb-16 max-w-3xl mx-auto">
               <Database className="w-16 h-16 text-primary mx-auto mb-4" />
               <h1 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">
-                ERP &<br/><span className="quantum-italic">DOS Solutions</span>
+                ERP &<br/><span className="quantum-italic">POS Solutions</span>
               </h1>
               <p className="mt-4 text-lg text-muted-foreground">
-                From DOS-based systems to modern ERP evolution - comprehensive enterprise resource planning and data optimization systems for businesses of all sizes.
+                From POS-based systems to modern ERP evolution - comprehensive enterprise resource planning and point of sale systems for businesses of all sizes.
               </p>
             </div>
 
@@ -64,7 +64,7 @@ export default function ERPDOSPage() {
               <div>
                 <h2 className="text-2xl font-bold text-primary mb-4">Introduction</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Small and medium businesses have always needed tools to manage sales, stock, and records. The evolution from DOS-based systems to modern ERP solutions has transformed how businesses operate, bringing enterprise-level capabilities to shopkeepers and small business owners.
+                  Small and medium businesses have always needed tools to manage sales, stock, and records. The evolution from POS-based systems to modern ERP solutions has transformed how businesses operate, bringing enterprise-level capabilities to shopkeepers and small business owners.
                 </p>
               </div>
 
@@ -76,9 +76,9 @@ export default function ERPDOSPage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">A Quick Look at DOS Systems</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-2">A Quick Look at POS Systems</h3>
                 <p className="text-muted-foreground leading-relaxed mb-3">
-                  Early businesses relied on DOS-based applications for basic inventory and billing management.
+                  Early businesses relied on POS-based applications for basic inventory and billing management.
                 </p>
                 <div className="ml-4">
                   <p className="text-muted-foreground leading-relaxed mb-2">
@@ -93,7 +93,7 @@ export default function ERPDOSPage() {
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">ERP Evolution</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  The journey from DOS → client-server → modern cloud ERPs has revolutionized business management. Today, businesses expect automation, comprehensive reporting, and easy accessibility. ERP systems have become modular, covering inventory, accounting, HR, supply chain, and more.
+                  The journey from POS → client-server → modern cloud ERPs has revolutionized business management. Today, businesses expect automation, comprehensive reporting, and easy accessibility. ERP systems have become modular, covering inventory, accounting, HR, supply chain, and more.
                 </p>
               </div>
 
@@ -134,7 +134,7 @@ export default function ERPDOSPage() {
                     <span className="font-bold text-white">Designed with small shopkeepers</span> and marts in mind.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    <span className="font-bold text-white">Keeps the simplicity of DOS</span> but adds the power of ERP.
+                    <span className="font-bold text-white">Keeps the simplicity of POS</span> but adds the power of ERP.
                   </p>
                 </div>
               </div>
@@ -142,7 +142,7 @@ export default function ERPDOSPage() {
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Conclusion</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  From DOS → ERP → modern shop management systems, the journey shows the same goal: organized, efficient business operations. Today, even small stores can enjoy ERP-like features in simple, accessible tools that combine the best of both worlds.
+                  From POS → ERP → modern shop management systems, the journey shows the same goal: organized, efficient business operations. Today, even small stores can enjoy ERP-like features in simple, accessible tools that combine the best of both worlds.
                 </p>
               </div>
 
