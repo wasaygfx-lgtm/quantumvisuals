@@ -19,5 +19,5 @@ const nextConfig: NextConfig = {
     ],
   },
 };
-
+//wasay
 export default nextConfig;
