@@ -47,7 +47,7 @@ export default function Home() {
         <main className="flex-grow relative z-10">
           <VendorsSection />
           <WhyUsSection />
-          <ServicesSection />
+          {/* <ServicesSection /> */}
           <ProjectsSection />
           <TestimonialsSection />
           <FaqSection />

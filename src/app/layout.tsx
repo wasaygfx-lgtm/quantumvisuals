@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Quantum Visuals',
   description: 'Hub of creativity',
   icons: {
-    icon: './images/QV Logo-02.png', 
+    icon: '/favicon.ico', 
   },
 };
 

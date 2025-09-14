@@ -93,6 +93,7 @@ export default function ServicesPage() {
         <Header />
         
         <main className="relative z-10 py-20 sm:py-32 flex-grow">
+          <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background to-transparent backdrop-blur-sm" />
           <section className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h1 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">
@@ -155,7 +156,7 @@ export default function ServicesPage() {
         </main>
       </div>
       <section>
-       <footer className="relative flex items-end justify-center min-h-screen pb-8 pt-16" >
+           <footer className="relative flex items-end justify-center min-h-screen pb-8 pt-16" >
       <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b" />
       
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-end h-full">
@@ -181,22 +182,22 @@ export default function ServicesPage() {
 
               <div className="flex justify-center items-center gap-4 hidden md:flex">
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="Instagram">
+                  <Link href="https://www.instagram.com/quantumvisuals_00?igsh=bmxxd3JuaWx2djRi#" target="_blank" aria-label="Instagram">
                     <Instagram className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="Facebook">
+                  <Link href="https://www.facebook.com/share/1JZjQ5rnfH/" target="_blank" aria-label="Facebook">
                     <Facebook className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="LinkedIn">
+                  <Link href="https://www.linkedin.com/in/quantum-visuals-890372384?trk=contact-info" target="_blank" aria-label="LinkedIn">
                     <Linkedin className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="X">
+                  <Link href="https://x.com/Quantum_Visuals" target="_blank" aria-label="X">
                     <XIcon className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
                   </Link>
                 </Button>
@@ -221,22 +222,22 @@ export default function ServicesPage() {
             <div className="md:hidden">
               <div className="flex gap-4">
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="Facebook">
+                  <Link href="https://www.facebook.com/share/1JZjQ5rnfH/" target="_blank" aria-label="Facebook">
                     <Facebook className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="X">
+                  <Link href="https://x.com/Quantum_Visuals" target="_blank" aria-label="X">
                     <XIcon className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="Instagram">
+                  <Link href="https://www.instagram.com/quantumvisuals_00?igsh=bmxxd3JuaWx2djRi#" target="_blank" aria-label="Instagram">
                     <Instagram className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="LinkedIn">
+                  <Link href="https://www.linkedin.com/in/quantum-visuals-890372384?trk=contact-info" target="_blank" aria-label="LinkedIn">
                     <Linkedin className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
                   </Link>
                 </Button>

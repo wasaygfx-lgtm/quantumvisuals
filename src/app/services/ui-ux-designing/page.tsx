@@ -122,22 +122,22 @@ export default function UiUxDesigningPage() {
 
               <div className="flex justify-center items-center gap-4 hidden md:flex">
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="Instagram">
+                  <Link href="https://www.instagram.com/quantumvisuals_00?igsh=bmxxd3JuaWx2djRi#" target="_blank" aria-label="Instagram">
                     <Instagram className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="Facebook">
+                  <Link href="https://www.facebook.com/share/1JZjQ5rnfH/" target="_blank" aria-label="Facebook">
                     <Facebook className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="LinkedIn">
+                  <Link href="https://www.linkedin.com/in/quantum-visuals-890372384?trk=contact-info" target="_blank" aria-label="LinkedIn">
                     <Linkedin className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="X">
+                  <Link href="https://x.com/Quantum_Visuals" target="_blank" aria-label="X">
                     <XIcon className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
                   </Link>
                 </Button>
@@ -162,22 +162,22 @@ export default function UiUxDesigningPage() {
             <div className="md:hidden">
               <div className="flex gap-4">
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="Facebook">
+                  <Link href="https://www.facebook.com/share/1JZjQ5rnfH/" target="_blank" aria-label="Facebook">
                     <Facebook className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="X">
+                  <Link href="https://x.com/Quantum_Visuals" target="_blank" aria-label="X">
                     <XIcon className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="Instagram">
+                  <Link href="https://www.instagram.com/quantumvisuals_00?igsh=bmxxd3JuaWx2djRi#" target="_blank" aria-label="Instagram">
                     <Instagram className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="LinkedIn">
+                  <Link href="https://www.linkedin.com/in/quantum-visuals-890372384?trk=contact-info" target="_blank" aria-label="LinkedIn">
                     <Linkedin className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
                   </Link>
                 </Button>

@@ -30,7 +30,7 @@ export default function Footer() {
   return (
     <footer className="relative flex items-end justify-center min-h-screen pb-8 pt-16" >
       <video
-        className="absolute inset-0 w-full h-full object-cover z-[-1] opacity-90"
+        className="absolute inset-0 w-full h-full object-cover z-[-1] opacity-100"
         src="/videos/final.mp4"
         autoPlay
         loop
@@ -62,22 +62,22 @@ export default function Footer() {
 
               <div className="flex justify-center items-center gap-4 hidden md:flex">
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="Instagram">
+                  <Link href="https://www.instagram.com/quantumvisuals_00?igsh=bmxxd3JuaWx2djRi#" target="_blank" aria-label="Instagram">
                     <Instagram className="h-7 w-7 text-foreground transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="Facebook">
+                  <Link href="https://www.facebook.com/share/1JZjQ5rnfH/" target="_blank" aria-label="Facebook">
                     <Facebook className="h-7 w-7 text-foreground transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="LinkedIn">
+                  <Link href="https://www.linkedin.com/in/quantum-visuals-890372384?trk=contact-info" target="_blank" aria-label="LinkedIn">
                     <Linkedin className="h-7 w-7 text-foreground transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
-                  <Link href="#" aria-label="X">
+                  <Link href="https://x.com/Quantum_Visuals" target="_blank" aria-label="X">
                     <XIcon className="h-7 w-7 text-foreground transition-colors hover:text-primary" />
                   </Link>
                 </Button>
@@ -102,22 +102,22 @@ export default function Footer() {
             <div className="md:hidden">
               <div className="flex gap-4">
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="Facebook">
+                  <Link href="https://www.facebook.com/share/1JZjQ5rnfH/" target="_blank" aria-label="Facebook">
                     <Facebook className="h-5 w-5 text-white transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="X">
+                  <Link href="https://x.com/Quantum_Visuals" target="_blank" aria-label="X">
                     <XIcon className="h-5 w-5 text-white transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="Instagram">
+                  <Link href="https://www.instagram.com/quantumvisuals_00?igsh=bmxxd3JuaWx2djRi#" target="_blank" aria-label="Instagram">
                     <Instagram className="h-5 w-5 text-white transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
-                  <Link href="#" aria-label="LinkedIn">
+                  <Link href="https://www.linkedin.com/in/quantum-visuals-890372384?trk=contact-info" target="_blank" aria-label="LinkedIn">
                     <Linkedin className="h-5 w-5 text-white transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
