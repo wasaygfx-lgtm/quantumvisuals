@@ -94,8 +94,11 @@ export default {
           },
         },
         'scroll-right': {
+          from: {
+            transform: 'translate(calc(-50% - 2rem))',
+          },
           to: {
-            transform: 'translate(calc(50% + 2rem))',
+            transform: 'translate(0)',
           },
         }
       },
