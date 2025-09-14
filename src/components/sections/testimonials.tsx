@@ -121,32 +121,54 @@ export default function TestimonialsSection() {
         </div>
       </div>
       
-      {/* Mobile: Accordion Dropdown */}
-      <div className="sm:hidden mt-12 container mx-auto px-4 sm:px-6 lg:px-8">
-        <Accordion type="single" collapsible className="w-full">
-          {testimonials.map((testimonial, index) => (
-            <AccordionItem key={index} value={`item-${index}`} className="bg-card/50 rounded-lg mb-4 px-4">
-              <AccordionTrigger>
-                <div className="flex items-center gap-4">
-                    <Image
-                      src={testimonial.avatar}
-                      alt={testimonial.name}
-                      width={40}
-                      height={40}
-                      className="rounded-full"
-                    />
-                    <div>
-                      <p className="font-semibold text-foreground text-left">{testimonial.name}</p>
-                      <p className="text-sm text-muted-foreground text-left">{testimonial.title}</p>
-                    </div>
-                  </div>
-              </AccordionTrigger>
-              <AccordionContent className="text-base text-foreground/80 pt-4 border-t border-border/20">
-                {testimonial.quote}
-              </AccordionContent>
-            </AccordionItem>
+      {/* Mobile: Small Scrolling Animation */}
+      <div className="sm:hidden mt-12 relative w-full overflow-hidden flex-col gap-6">
+        <div className="absolute top-0 left-0 w-12 h-full bg-gradient-to-r from-background to-transparent z-10" />
+        <div className="absolute top-0 right-0 w-12 h-full bg-gradient-to-l from-background to-transparent z-10" />
+        <div className="flex animate-scroll">
+          {testimonialsRow1.map((testimonial, index) => (
+            <Card key={index} className="bg-card/50 flex flex-col justify-between p-4 mx-2 w-[280px] shrink-0">
+              <CardContent className="p-0 flex-grow">
+                <p className="text-sm text-foreground/80">{testimonial.quote}</p>
+              </CardContent>
+              <div className="flex items-center gap-3 mt-4 pt-4 border-t border-border/20">
+                <Image
+                  src={testimonial.avatar}
+                  alt={testimonial.name}
+                  width={32}
+                  height={32}
+                  className="rounded-full"
+                />
+                <div>
+                  <p className="text-sm font-semibold text-foreground">{testimonial.name}</p>
+                  <p className="text-xs text-muted-foreground">{testimonial.title}</p>
+                </div>
+              </div>
+            </Card>
           ))}
-        </Accordion>
+        </div>
+        <div className="flex animate-scroll-right mt-6">
+          {testimonialsRow2.map((testimonial, index) => (
+            <Card key={index} className="bg-card/50 flex flex-col justify-between p-4 mx-2 w-[280px] shrink-0">
+              <CardContent className="p-0 flex-grow">
+                <p className="text-sm text-foreground/80">{testimonial.quote}</p>
+              </CardContent>
+              <div className="flex items-center gap-3 mt-4 pt-4 border-t border-border/20">
+                <Image
+                  src={testimonial.avatar}
+                  alt={testimonial.name}
+                  width={32}
+                  height={32}
+                  className="rounded-full"
+                />
+                <div>
+                  <p className="text-sm font-semibold text-foreground">{testimonial.name}</p>
+                  <p className="text-xs text-muted-foreground">{testimonial.title}</p>
+                </div>
+              </div>
+            </Card>
+          ))}
+        </div>
       </div>
     </section>
   );

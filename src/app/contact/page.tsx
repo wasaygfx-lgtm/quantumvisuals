@@ -46,14 +46,19 @@ export default function ContactPage() {
                     </p>
                   </div>
                   <div className="space-y-4">
-                    <div className="flex items-center justify-center gap-4">
-                      <Phone className="w-6 h-6 text-primary" />
-                      <a href="tel:+923101108202" className="text-lg hover:text-primary transition-colors">
-                        +92 310 1108202
-                      </a>
-                      <a href="tel:+923132943460" className="text-lg hover:text-primary transition-colors">
-                        +92 313 2943460
-                      </a>
+                    <div className="space-y-2">
+                      <div className="flex items-center justify-center gap-4">
+                        <Phone className="w-6 h-6 text-primary" />
+                        <a href="tel:+923101108202" className="text-lg hover:text-primary transition-colors">
+                          +92 310 1108202
+                        </a>
+                      </div>
+                      <div className="flex items-center justify-center gap-4">
+                        <Phone className="w-6 h-6 text-primary" />
+                        <a href="tel:+923132943460" className="text-lg hover:text-primary transition-colors">
+                          +92 313 2943460
+                        </a>
+                      </div>
                     </div>
                     <div className="flex items-center justify-center gap-4">
                       <Mail className="w-6 h-6 text-primary" />

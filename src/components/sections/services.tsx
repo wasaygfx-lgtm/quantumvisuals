@@ -34,9 +34,9 @@ export default function ServicesSection() {
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {services.map((service, index) => (
             <div key={index} className="animate-in fade-in slide-in-from-bottom-8 duration-1000" style={{'--index': index} as React.CSSProperties}>
-              <Card className="h-full text-center bg-card/50 hover:bg-card/80 transition-all duration-300 overflow-hidden group">
+              <Card className="h-full text-center bg-transparent border-transparent transition-all duration-300 overflow-hidden group">
                 <CardHeader className="p-0">
-                  <div className="aspect-w-4 aspect-h-3">
+                  <div className="h-48">
                     <img
                       src={service.imageUrl}
                       alt={service.title}

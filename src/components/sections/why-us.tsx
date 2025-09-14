@@ -35,7 +35,7 @@ export default function WhyUsSection() {
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {features.map((feature, index) => (
             <div key={index} className="animate-in fade-in slide-in-from-bottom-8 duration-1000" style={{'--index': index} as React.CSSProperties}>
-              <Card className="h-full text-center bg-card/50 hover:bg-card/80 hover:scale-105 transition-all duration-300">
+              <Card className="h-full text-center hover:scale-105 transition-all duration-300 bg-transparent border-transparent">
                 <CardHeader className="items-center">
                   <div className="p-4 bg-background rounded-full">
                     {feature.icon}

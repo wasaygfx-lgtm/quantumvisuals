@@ -63,27 +63,27 @@ export default function Footer() {
               <div className="flex justify-center items-center gap-4 hidden md:flex">
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
                   <Link href="#" aria-label="Instagram">
-                    <Instagram className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
+                    <Instagram className="h-7 w-7 text-foreground transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
                   <Link href="#" aria-label="Facebook">
-                    <Facebook className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
+                    <Facebook className="h-7 w-7 text-foreground transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
                   <Link href="#" aria-label="LinkedIn">
-                    <Linkedin className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
+                    <Linkedin className="h-7 w-7 text-foreground transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
                   <Link href="#" aria-label="X">
-                    <XIcon className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
+                    <XIcon className="h-7 w-7 text-foreground transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full" asChild>
                   <Link href="#" aria-label="Discord">
-                    <DiscordIcon className="h-6 w-6 text-foreground transition-colors hover:text-primary" />
+                    <DiscordIcon className="h-7 w-7 text-foreground transition-colors hover:text-primary" />
                   </Link>
                 </Button>
               </div>
@@ -103,27 +103,27 @@ export default function Footer() {
               <div className="flex gap-4">
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
                   <Link href="#" aria-label="Facebook">
-                    <Facebook className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                    <Facebook className="h-5 w-5 text-white transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
                   <Link href="#" aria-label="X">
-                    <XIcon className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                    <XIcon className="h-5 w-5 text-white transition-colors hover:text-primary" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
                   <Link href="#" aria-label="Instagram">
-                    <Instagram className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                    <Instagram className="h-5 w-5 text-white transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
                   <Link href="#" aria-label="LinkedIn">
-                    <Linkedin className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                    <Linkedin className="h-5 w-5 text-white transition-colors hover:text-primary" strokeWidth={2.5} />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" className="bg-transparent hover:bg-transparent rounded-full p-2" asChild>
                   <Link href="#" aria-label="Discord">
-                    <DiscordIcon className="h-5 w-5 text-white/60 transition-colors hover:text-primary" />
+                    <DiscordIcon className="h-5 w-5 text-white transition-colors hover:text-primary" />
                   </Link>
                 </Button>
               </div>

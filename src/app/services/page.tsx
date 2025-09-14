@@ -98,7 +98,7 @@ export default function ServicesPage() {
               <h1 className="text-4xl sm:text-5xl font-bold font-headline text-foreground">
                 Creativity that
                 <br />
-                <span className="quantum-italic text-foreground">Converts Marketing</span>
+                <span className="quantum-italic text-foreground">Makes Impression</span>
               </h1>
             </div>
             
@@ -122,7 +122,6 @@ export default function ServicesPage() {
                         />
                         <CardHeader className="absolute bottom-0 left-0 w-full p-4">
                           <CardTitle className="text-xl font-bold text-white">{service.title}</CardTitle>
-                          <p className="text-sm text-muted-foreground pt-1">{service.description}</p>
                         </CardHeader>
                       </Card>
                     </div>
